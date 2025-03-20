@@ -1,4 +1,4 @@
-¡Por supuesto! A continuación, te proporciono un ejemplo de cómo podrías documentar tu código para un repositorio en GitHub utilizando un archivo `README.md`. Este archivo debe proporcionar una descripción general del proyecto, las instrucciones de instalación, uso, y otros detalles que faciliten a los usuarios entender y usar el código.
+
 
 # Juego de la Vida de Conway
 
