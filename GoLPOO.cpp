@@ -212,5 +212,6 @@
         });
         parpadeante.aplicar(juego.get_tablero(),10,25);
         juego.ejecutar(400, 100);
+        cout<<"Hola";
         return 0;
     }
