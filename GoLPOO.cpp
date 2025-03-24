@@ -40,7 +40,7 @@
     }
     bool Celula::esta_viva() const { return viva; }
     void Celula::set_estado(bool estado) { viva = estado; }
-    std::string Celula::dibujar() const { return viva ? "\xDB" : " "; }
+    std::string Celula::dibujar() const { return viva ? "\xDB⬜️" : " "; }
 
     // Clase que representa el tablero del juego
     class Tablero {
@@ -212,6 +212,6 @@
         });
         parpadeante.aplicar(juego.get_tablero(),10,25);
         juego.ejecutar(400, 100);
-        cout<<"Hola";
+        std::cout<<"Hola";
         return 0;
     }
